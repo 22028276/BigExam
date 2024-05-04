@@ -34,7 +34,7 @@ struct Graphics {
 
     TTF_Font* font = loadFont("AlexBrush-Regular.ttf", 40);
     SDL_Color color = {255, 36, 0, 0};
-    SDL_Texture* helloText = renderText("Note : Only click on the left image", font, color);
+    SDL_Texture* helloText = renderText("Note : Have a good time and enjoy !", font, color);
     renderTexture(helloText, 375, 760);
     helloText = renderText("Point : ", font, color);
     renderTexture(helloText, 50, 400);
